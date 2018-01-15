@@ -8,25 +8,24 @@ import {
 export default class Splash extends Component {
   render(){
     return(
-      <View >
+      <View style={styles.splash}>
         <Image
-        style={styles.imagesLogo}
+          style ={styles.imagesLogo}
           source={require('../../source/images/logo.png')}
          />
       </View>
-
     );
   }
 }
 const styles = StyleSheet.create({
 splash: {
-  backgroundColor: 'red',
-  justifyContent: 'center',
-  alignItems:'center',
+  flex: 1,
+  backgroundColor: '#fcc813',
 },
 imagesLogo:{
-  height: 230,
-  width: 250,
-  marginTop: 100
+  width: 260,
+  height: 240,
+  alignSelf:'center',
+  marginTop: 80
 }
 });

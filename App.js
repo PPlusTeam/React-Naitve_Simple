@@ -20,13 +20,15 @@ const instructions = Platform.select({
 });
 
 import Login from './components/login/Login';
+import Splash from './components/login/Splash';
 
 export default class App extends Component<{}> {
   render() {
     return (
-      <View style={styles.container}>
+      // <Splash/>
+      // <View style={styles.container}>
         <Login/>
-      </View>
+      // </View>
     );
   }
 }

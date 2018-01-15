@@ -8,7 +8,11 @@ import {
 export default class Login extends React.Component{
   render(){
       return(
-          <Text style={{flex:1}}>asdadaw</Text>
+          <View>
+            <View>
+              <Image source={require('../../source/images/logo_yellow.png')}/>
+            </View>
+          </View>
       );
   }
 }
